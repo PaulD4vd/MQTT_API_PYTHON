@@ -20,9 +20,9 @@ MQTT_PORT = 1883
 MQTT_TOPICS = ["iot/testing"]
 
 # MongoDB Config
-MONGO_URI = "mongodb://WriteHIGO:kejuterbang@103.141.231.17:27017/admin?authSource=admin"
-MONGO_DB = "admin"
-MONGO_COLLECTION = "data_baru"
+MONGO_URI = ""
+MONGO_DB = ""
+MONGO_COLLECTION = ""
 
 # Shared queue for bulk processing
 default_queue = Queue(maxsize=MAX_QUEUE_SIZE)
